@@ -1,7 +1,7 @@
 language: "en"
 
 pipeline:
-- name: "WhitespaceTokenizer"
+- name: "ConveRTTokenizer"
   intent_tokenization_flag: True
   intent_split_symbol: "_"
 - name: "CountVectorsFeaturizer"
